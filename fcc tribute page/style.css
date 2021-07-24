@@ -1,0 +1,134 @@
+* {
+   margin: 0;
+   padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Karla,sans-serif;
+    height: 100%;
+    width: 100%;
+    background-color: #f72585;
+    margin: 0 auto;
+    
+    
+
+}
+#title  {
+   
+    padding-top: 50px;
+    height: 120px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 80px;
+    color: #fff;
+}
+
+img {
+    height: auto;
+    
+    max-width: 80%;
+  display: block;
+    margin: 0 auto;
+   padding-top: 50px;
+}
+#img-div {
+    
+    max-width: 100%;
+    background-color: black;
+    
+}
+
+figcaption {
+    text-align: center;
+    font-size: 16px;
+    color: #fff;
+    font-style: italic;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+
+#tribute-info {
+    max-width:100%;
+   color: #fff;
+    margin:  auto 80px;
+    padding-top: 50px;
+    text-align: justify;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    display:inline-block;
+
+
+}
+.more {
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    
+}
+#tribute-link  {
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+button {
+    margin-bottom: 30px;
+}
+
+
+.info {
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 20px;
+    
+    
+}
+.main-pic {
+    width: 400px;
+    height: auto;
+    padding-bottom: 30px;
+    
+}
+.container {
+    width: auto;
+    height: auto;
+    color:#fff;
+        
+}
+
+.container h1{
+    text-align: center;
+    margin: 80px 0;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.album-covers  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content: center;
+}
+footer {
+    width:100%;
+    
+    height: 80px;
+    
+}
+footer p {
+    padding-top:30px;
+    margin:0 auto;
+    text-align: center;
+}
+
